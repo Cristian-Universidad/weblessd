@@ -1,0 +1,1345 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+    font-weight: 800;
+}
+body{
+    background-color: black;
+}
+
+
+/*HEADER*/
+.container{
+background-color: #01B5FF;
+height: 15vh;
+width: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 2% 5%;
+border-radius: 20px;
+}
+
+.header_icons i{
+    display: none;
+}
+
+header div img{
+    height: 14vh;
+    margin-left: 15%;
+}
+
+header.container nav ul{
+    margin-right: 4vh;
+}
+
+#header__div nav ul button{
+    padding: 2% 10px;
+    margin: 1px;
+    border: 4px solid black;
+}
+
+header div#header__div a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;   
+}
+
+
+/*INICIO*/
+.arrow a img{
+    border-radius: 100%;
+    position: fixed;
+    top: 80vh;
+    left: 91vw;
+}
+
+.arrowimg{
+    width: auto;
+    height: auto;
+    max-height: 100px;
+}
+
+
+#inicio{
+    margin-bottom: 5%;
+    padding: 10%;
+}
+.container-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio div img{
+    height: 15vh;
+}
+
+#inicio div.cara-blessd img{
+    height: 60vh;
+}
+
+#inicio div.logo-siempre{
+    margin-left: 0%;
+    margin-top: 25%;
+}
+
+div.container-redes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 6% 0 0 0;
+}
+
+
+#inicio div.container-redes a i.fa-brands{
+    font-size:500%;
+    margin: 0 1.5vw;
+}
+
+
+/*HISTORIA*/
+#historia {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10%;
+}
+#historia div.content-history{
+    background-color: #049fdd;
+    margin: 5% 5% 5% 7%;
+    padding: 2%;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    text-align: justify;
+}
+#historia div.content-history h2{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-weight: 1000;
+    text-align: center;
+}
+#historia div.content-history p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.history-img div img{
+    width: 100%;
+    height: 50vh;
+    margin: 5%;
+    
+}
+ div img.history-img-div{
+    margin: 0 10% 120% 0 ;
+ }
+ div img.history-img-div-2{
+    margin: 120% 0 0 10%;
+ }
+
+
+ /*TRAYECTO*/
+ #trayecto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10%;
+ }
+
+#trayecto div.content-trayectory{
+    background-color: #049fdd;
+    width: 100%;
+    margin: 2% 7% 5% 5%;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: justify;
+    color: white;
+}
+#trayecto div.content-trayectory h2{
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#trayecto div.content-trayectory p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+div.container-trayecto-multimedia{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 0 10%;
+    justify-content: space-between;
+}
+#trayecto div.container-trayecto-multimedia div img, #trayecto div.container-trayecto-multimedia div video {
+    height:70vh;
+    width: 100%;
+}
+
+#trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+    margin: 15% 0 0 -20%;
+}
+
+#trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+    margin: 0 0 25% 0;    
+}
+
+
+
+/*DATOS*/
+#datos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+#datos div.container-datos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+img.container-datos-img{
+    height: 80%;
+    width: 80%;
+    margin: 10% 10% 0% 10%;
+}
+img.container-datos-img-2{
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+
+
+div.content-datos{
+    background-color:#049fdd;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+div.content-datos h2{
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-bottom: 5%;
+    text-align: center;
+}
+div.content-datos p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+div.container-datos-2{
+    width: 100%;
+}
+img.container-datos-2-img{
+    width: 80%;
+    height: 80%;
+    margin: 10% 10% 0% 10%;
+}
+img.container-datos-2-img-2{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+
+
+/*FOOTER*/
+#contacto{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ div.container-contact{
+    background-color: #049fdd;
+    padding: 2%;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+div.container-contact h3{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+input.controls{
+    width: 100%;
+    margin: 1%;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: black;
+    border: 3px solid black;
+}
+textarea.controls-2{
+    font-size: 1.2rem;
+    margin: 1%;
+    width: 100%;
+    height: 20vh;
+    border: 3px solid black;
+    padding: 10px 0 18% 10px;
+}
+input.controls-3{
+    font-size: 1.2rem;
+    margin: 1%;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: black;
+    color: white
+}
+
+div.container-controls-3{
+    padding-left: 90.2%;
+}
+
+div.desarrollado{
+    color:white;
+    margin: 5% 0 0 0;
+    padding: 0 70% 0 0%;
+}
+
+div.desarrollado p{
+    font-size: 1.2rem;
+}
+
+
+/*RESPONSIVE MAS PEQUEÑO*/
+@media screen and (min-width: 50px){
+    /*HEADER*/
+
+    .header_icons i{
+     display: flex;
+     color: white;
+     font-size: 1.4rem;
+     font-weight: 0;
+    }
+    #header__div nav ul .header_icons{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-right: 20vw;
+    }
+    #header__div nav ul button{
+     display: none;
+    }
+ 
+
+ .container div img{
+     height: 8.4vh;
+ }
+ 
+ /*INICIO*/
+ .arrow a img{
+     border-radius: 100%;
+     position: fixed;
+     top: 86vh;
+     left: 84vw;
+ }
+ 
+ .container-img{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #inicio div img{
+     height: 6vh;
+ }
+     
+ #inicio div.cara-blessd img{
+     height: 40vh;
+ }
+     
+ #inicio div.logo-siempre{
+     margin-left: 0%;
+     margin-top: 2%;
+ }
+     
+ div.container-redes{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     margin: 12% 0 0 0;
+ }        
+ #inicio div.container-redes a i.fa-brands{
+     font-size:  250%;
+ }
+
+ /*HISTORIA*/
+ #historia{
+     flex-direction: column;
+ }
+ #historia div.content-history{
+     margin: 2% 2% 2% 4%;
+     padding: 2%;
+     width: 90%;
+ }
+ #historia div.content-history h2{
+     font-size: 2rem;
+     font-weight: 800;
+ }
+ #historia div.content-history p{
+     font-size: .8rem;
+     font-weight: 200;
+ }
+
+ .history-img{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     padding-right: 5%;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ .history-img div img{
+     width: auto;
+     height: 26vh;
+     margin: 5%;
+ }
+ 
+ /*TRAYECTO MUSICAL*/
+ #trayecto{
+     flex-direction: column;
+ }
+
+ #trayecto div.content-trayectory{
+     width: 92%;
+     margin:  3% 5% 3% 5%;
+     padding: 2%;
+     border-radius: 20px;
+ }
+
+ #trayecto div.content-trayectory h2{
+     font-size: 2rem;
+     font-weight: 800;
+ }
+ #trayecto div.content-trayectory p{
+     font-size: .8rem;
+     font-weight: 200;
+ }
+ 
+ div.container-trayecto-multimedia{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     padding: 10% 4% 0 4%;
+     justify-content: space-between;
+ }
+ #trayecto div.container-trayecto-multimedia div img{
+     height: 25vh;
+     width: auto;
+ }
+  #trayecto div.container-trayecto-multimedia div video {
+     height: 30vh;
+     width: auto;
+ }
+ #trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+     margin: auto;
+ }
+ 
+ #trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+     margin: auto;    
+ }
+ 
+ /*DATOS CURIOSOS*/
+ #datos{
+     flex-direction: column;
+ }
+ #datos div.container-datos{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     margin-top: 10%;
+ }
+ img.container-datos-img{
+     width: 68%;
+     height: auto;
+ }
+ img.container-datos-img-2{
+     width: 38vw;
+     height: auto;
+     margin: 14% 20px 0 0;
+ }
+ div.content-datos{
+     background-color:#049fdd;
+     width: 95%;
+     margin: 2%;
+     padding: 2%;
+     color: white; 
+ }
+ div.content-datos h2{
+     font-size: 2rem;
+     font-weight: 800;
+     margin-bottom: 5%;
+     text-align: center;
+ }
+ div.content-datos p{
+     font-size: .8rem;
+     font-weight: 200;
+ }
+ div.container-datos-2{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     margin-top: 10%;
+ }
+ img.container-datos-2-img{
+     width: 68%;
+     height: auto;
+ }
+ img.container-datos-2-img-2{
+     width: 38vw;
+     height: auto;
+     margin: 14% 20px 0 0;
+ }
+
+ /*FOOTER*/
+ div.container-contact h3{
+     font-size: 1rem;
+ }
+
+ div.container-contact{
+     width: 80%;
+ }
+ div.container-controls-3{
+     padding-left: 74%;
+ }
+ .container-contact form input, .container-contact form textarea {
+     font-size: .9rem;
+ }
+ div.desarrollado p{
+     font-size: .6rem;
+ }
+}
+
+/*RESPONSIVE CEL*/
+@media screen and (min-width: 480px){
+           /*HEADER*/
+
+           .header_icons i{
+            display: flex;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 0;
+           }
+           #header__div nav ul .header_icons{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 20vw;
+           }
+           #header__div nav ul button{
+            display: none;
+           }
+        
+    
+        .container div img{
+            height: 8.4vh;
+        }
+        
+        /*INICIO*/
+        .arrow a img{
+            border-radius: 100%;
+            position: fixed;
+            top: 86vh;
+            left: 84vw;
+        }
+        
+        .container-img{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #inicio div img{
+            height: 6vh;
+        }
+            
+        #inicio div.cara-blessd img{
+            height: 40vh;
+        }
+            
+        #inicio div.logo-siempre{
+            margin-left: 0%;
+            margin-top: 2%;
+        }
+            
+        div.container-redes{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin: 12% 0 0 0;
+        }        
+        #inicio div.container-redes a i.fa-brands{
+            font-size:  250%;
+        }
+    
+        /*HISTORIA*/
+        #historia{
+            flex-direction: column;
+        }
+        #historia div.content-history{
+            margin: 2% 2% 2% 4%;
+            padding: 2%;
+            width: 90%;
+        }
+        #historia div.content-history h2{
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        #historia div.content-history p{
+            font-size: .8rem;
+            font-weight: 200;
+        }
+    
+        .history-img{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding-right: 5%;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .history-img div img{
+            width: auto;
+            height: 26vh;
+            margin: 5%;
+        }
+        
+        /*TRAYECTO MUSICAL*/
+        #trayecto{
+            flex-direction: column;
+        }
+    
+        #trayecto div.content-trayectory{
+            width: 92%;
+            margin:  3% 5% 3% 5%;
+            padding: 2%;
+            border-radius: 20px;
+        }
+    
+        #trayecto div.content-trayectory h2{
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        #trayecto div.content-trayectory p{
+            font-size: .8rem;
+            font-weight: 200;
+        }
+        
+        div.container-trayecto-multimedia{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 10% 4% 0 4%;
+            justify-content: space-between;
+        }
+        #trayecto div.container-trayecto-multimedia div img{
+            height: 25vh;
+            width: auto;
+        }
+         #trayecto div.container-trayecto-multimedia div video {
+            height: 30vh;
+            width: auto;
+        }
+        #trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+            margin: auto;
+        }
+        
+        #trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+            margin: auto;    
+        }
+        
+        /*DATOS CURIOSOS*/
+        #datos{
+            flex-direction: column;
+        }
+        #datos div.container-datos{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10%;
+        }
+        img.container-datos-img{
+            width: 68%;
+            height: auto;
+        }
+        img.container-datos-img-2{
+            width: 38vw;
+            height: auto;
+            margin: 14% 20px 0 0;
+        }
+        div.content-datos{
+            background-color:#049fdd;
+            width: 95%;
+            margin: 2%;
+            padding: 2%;
+            color: white; 
+        }
+        div.content-datos h2{
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        div.content-datos p{
+            font-size: .8rem;
+            font-weight: 200;
+        }
+        div.container-datos-2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10%;
+        }
+        img.container-datos-2-img{
+            width: 68%;
+            height: auto;
+        }
+        img.container-datos-2-img-2{
+            width: 38vw;
+            height: auto;
+            margin: 14% 20px 0 0;
+        }
+    
+        /*FOOTER*/
+        div.container-contact h3{
+            font-size: 1rem;
+        }
+
+        div.container-contact{
+            width: 80%;
+        }
+        div.container-controls-3{
+            padding-left: 74%;
+        }
+        .container-contact form input, .container-contact form textarea {
+            font-size: .9rem;
+        }
+        div.desarrollado p{
+            font-size: .6rem;
+        }
+}
+
+
+/*RESPONSIVE TABLET*/
+@media screen and (min-width: 768px){
+        /*HEADER*/
+
+        .header_icons a i{
+            display: none;
+        }
+        #header__div nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        #header__div nav ul button{
+            display: flex;
+            height: 10%;
+        }
+        #header__div nav ul button{
+            margin: .4%;
+            border: solid 3px black;
+        }
+        #header__div nav ul button a{
+            font-size: 1rem;
+        }
+    
+        .container div img{
+            height: 10vh;
+        }
+        
+        /*INICIO*/
+        .arrow a img{
+            border-radius: 100%;
+            position: fixed;
+            top: 86vh;
+            left: 86vw;
+        }
+        #header__div nav ul button{
+            display:;
+           }
+        .container-img{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #inicio div img{
+            height: 8vh;
+        }
+            
+        #inicio div.cara-blessd img{
+            height: 50vh;
+        }
+            
+        #inicio div.logo-siempre{
+            margin-left: 0%;
+            margin-top: 2%;
+        }
+            
+        div.container-redes{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin: 12% 0 0 0;
+        }        
+        #inicio div.container-redes a i.fa-brands{
+            font-size:  250%;
+        }
+    
+        /*HISTORIA*/
+        #historia{
+            flex-direction: row;
+        }
+        #historia div.content-history{
+            margin: 2% 2% 2% 4%;
+            padding: 2%;
+            width: 240%;
+        }
+        #historia div.content-history h2{
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        #historia div.content-history p{
+            font-size: 1rem;
+            font-weight: 200;
+        }
+    
+        .history-img{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-right: 5%;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .history-img div img{
+            width: auto;
+            height: 26vh;
+            margin: 5%;
+        }
+        
+        /*TRAYECTO MUSICAL*/
+        
+        #trayecto{
+            flex-direction: row;
+        }
+    
+        #trayecto div.content-trayectory{
+            width: 200%;
+            margin:  0% 5% 3% 3%;
+            padding: 2%;
+            border-radius: 20px;
+        }
+    
+        #trayecto div.content-trayectory h2{
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        #trayecto div.content-trayectory p{
+            font-size: 1rem;
+            font-weight: 200;
+        }
+        
+        div.container-trayecto-multimedia{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0 0 0 4%;
+            justify-content: center;
+        }
+        #trayecto div.container-trayecto-multimedia div img{
+            height: 25vh;
+            width: auto;
+        }
+         #trayecto div.container-trayecto-multimedia div video {
+            height: 30vh;
+            width: auto;
+        }
+        #trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+            margin: auto;
+        }
+        
+        #trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+            margin: auto;    
+        }
+        
+        /*DATOS CURIOSOS*/
+        #datos{
+            flex-direction: row;
+        }
+
+        #datos div.container-datos{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+        }
+        img.container-datos-img{
+            width: 90%;
+        }
+        img.container-datos-img-2{
+            width: 90%;
+            margin: 10%;
+        }
+        div.content-datos{
+            background-color:#049fdd;
+            width: 200%;
+            margin: 2%;
+            padding: 2%;
+            color: white; 
+        }
+        div.content-datos h2{
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        div.content-datos p{
+            font-size: 1rem;
+            font-weight: 200;
+        }
+        div.container-datos-2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10% 50px 0 -15px;
+        }
+        img.container-datos-2-img{
+            height: auto;
+            width: auto;
+            max-width: 90%;
+        }
+        img.container-datos-2-img-2{
+            height: auto;
+            width: auto;
+            max-width: 90%;
+            margin: 10%;
+        }
+    
+        /*FOOTER*/
+        div.container-contact h3{
+            font-size: 1.6rem;
+        }
+        div.container-contact{
+            width: 75%;
+        }
+        .container-contact form input, .container-contact form textarea {
+            font-size: 1rem;
+        }
+        div.container-controls-3{
+            padding-left: 84%;
+        }
+        div.desarrollado p{
+            font-size: .6rem;
+        }
+}
+
+
+/*RESPONSIVE DESKTOP*/
+@media screen and (min-width: 1024px){
+    /*HEADER*/
+    #header__div nav ul button a{
+        font-size: 1.2rem;
+    }
+    #header__div nav ul button{
+        margin: 2%;
+        border: solid 4px black;
+    }
+    .container-img{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*INICIO*/
+    
+    .arrow a img{
+        border-radius: 100%;
+        position: fixed;
+        top: 80vh;
+        left: 86vw;
+    }
+    #inicio div .cara-blessd img{
+        padding-left: 250px;
+        height: 40vh;
+    }
+
+    #inicio div .logo-siempre img{
+        height: 80px;
+        padding-right: 250px;
+    }
+    #inicio div.container-redes a i.fa-brands{
+        font-size:  400%;
+    }
+
+    /*HISTORIA*/
+    #historia div.content-history{
+        margin: 2% 2% 2% 4%;
+        padding: 2%;
+        width: 180%;
+    }
+    #historia div.content-history h2{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    #historia div.content-history p{
+        font-size: 1rem;
+        font-weight: 250;
+    }
+    
+    .history-img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 5%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .history-img div img{
+        width: 100%;
+        height: 40vh;
+        margin: 5%;
+    }
+    
+    /*TRAYECTO MUSICAL*/
+
+    #trayecto div.content-trayectory{
+        width: 150%;
+        margin:  0 5% 3% 3%;
+        padding: 2%;
+        border-radius: 20px;
+    }
+
+    #trayecto div.content-trayectory h2{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    #trayecto div.content-trayectory p{
+        font-size: 1rem;
+        font-weight: 250;
+    }
+    
+    div.container-trayecto-multimedia{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 2%;
+        justify-content: space-evenly;
+    }
+    #trayecto div.container-trayecto-multimedia div img{
+        height: auto;
+        width: 100%;
+    }
+     #trayecto div.container-trayecto-multimedia div video {
+        height: 45vh;
+        width: 100%;
+    }
+    
+    #trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+        margin: 15% 0 0 0;
+    }
+    
+    #trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+        margin: 0 0 25% 0;    
+    }
+    
+    
+    /*DATOS CURIOSOS*/
+    #datos div.container-datos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    img.container-datos-img{
+        width: 80%;
+    }
+    img.container-datos-img-2{
+        width: 80%;
+        margin: 10%;
+    }
+    div.content-datos{
+        background-color:#049fdd;
+        width: 160%;
+        margin: 2%;
+        padding: 2%;
+        color: white; 
+    }
+    div.content-datos h2{
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    div.content-datos p{
+        font-size: 1rem;
+        font-weight: 250;
+    }
+    div.container-datos-2{
+        width: 100%;
+    }
+    img.container-datos-2-img{
+        height: 80%;
+    }
+    img.container-datos-2-img-2{
+        height: 80%;
+    }
+
+    /*FOOTER*/
+    div.container-controls-3{
+        padding-left: 88.2%;
+    }
+    div.desarrollado p{
+        font-size: 1rem;
+    }
+}
+
+
+/*RESPONSIVE MAS GRANDE*/
+@media screen and (min-width: 1500px){
+    /*HEADER*/
+    .container{
+        padding: 6% 0;
+    }
+    #header__div nav ul button{
+        margin: 2%;
+        border: solid 5px black;
+    }
+    #header__div nav ul button a{
+        font-size: 2rem;
+    }
+
+    .container div img{
+        height: 15vh;
+    }
+    
+    /*INICIO*/
+    .arrow a img{
+        border-radius: 100%;
+        position: fixed;
+        top: 80vh;
+        left: 91vw;
+    }
+    
+    .container-img{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inicio div img{
+        height: 15vh;
+    }
+        
+    #inicio div.cara-blessd img{
+        height: 60vh;
+    }
+        
+    #inicio div.logo-siempre{
+        margin-left: 0%;
+        margin-top: 25%;
+    }
+        
+    div.container-redes{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 6% 0 0 0;
+    }        
+    #inicio div.container-redes a i.fa-brands{
+        font-size:  500%;
+    }
+
+    /*HISTORIA*/
+    #historia div.content-history{
+        margin: 5% 5% 5% 7%;
+        padding: 2%;
+        width: 100%;
+    }
+    #historia div.content-history h2{
+        font-size: 3rem;
+        font-weight: 1000;
+    }
+    #historia div.content-history p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .history-img {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 5%;
+        align-items:center;
+        justify-content:space-between;
+        margin-left: 5%;
+    }
+    .history-img div img{
+        width: 100%;
+        height: auto;
+        margin: 5%;
+        
+    }
+     div img.history-img-div{
+        margin: 0 10% 120% 0 ;
+     }
+     div img.history-img-div-2{
+        margin: 120% 0 0 10%;
+     }
+
+    /*TRAYECTO MUSICAL*/
+
+    #trayecto div.content-trayectory{
+        width: 100%;
+        margin:  2% 7% 5% 5%;
+        padding: 2%;
+        border-radius: 20px;
+    }
+
+    #trayecto div.content-trayectory h2{
+        font-size: 3rem;
+        font-weight: 1000;
+    }
+    #trayecto div.content-trayectory p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    div.container-trayecto-multimedia{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 10%;
+        justify-content: space-between;
+    }
+    #trayecto div.container-trayecto-multimedia div img{
+        height: auto;
+        width: 100%;
+    }
+     #trayecto div.container-trayecto-multimedia div video {
+        height: 70vh;
+        width: 100%;
+    }
+    
+    #trayecto div.container-trayecto-multimedia video.container-trayecto-multimedia-video{
+        margin: 15% 0 0 -20%;
+    }
+    
+    #trayecto div.container-trayecto-multimedia img.container-trayecto-multimedia-img{
+        margin: 0 0 25% 0;    
+    }
+    
+    /*DATOS CURIOSOS*/
+    #datos div.container-datos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    img.container-datos-img{
+        width: 80%;
+    }
+    img.container-datos-img-2{
+        width: 80%;
+        margin: 10%;
+    }
+    div.content-datos{
+        background-color:#049fdd;
+        width: 100%;
+        margin: 2%;
+        padding: 2%;
+        color: white; 
+    }
+    div.content-datos h2{
+        font-size: 3rem;
+        font-weight: 1000;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    div.content-datos p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    div.container-datos-2{
+        width: 100%;
+    }
+    img.container-datos-2-img{
+        height: 80%;
+    }
+    img.container-datos-2-img-2{
+        height: 80%;
+    }
+
+    /*FOOTER*/
+    div.desarrollado p{
+        font-size: 1.2rem;
+    }
+    .container-contact form input, .container-contact form textarea {
+        font-size: 1.4rem;
+    }
+    div.container-controls-3{
+        padding-left: 94%;
+    }
+}
